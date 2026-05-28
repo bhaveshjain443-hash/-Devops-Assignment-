@@ -76,8 +76,7 @@ project/
 ## Clone Repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/bhaveshjain443-hash/-Devops-Assignment-.git
 ```
 
 ---
@@ -262,11 +261,7 @@ docker logs nginx_proxy
 * Planned cron-based backup support
 * Docker restart policies enabled
 
-Example database backup command:
 
-```bash
-docker exec postgres_db pg_dump -U admin appdb > backup.sql
-```
 
 ---
 
